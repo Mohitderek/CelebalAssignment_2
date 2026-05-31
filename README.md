@@ -2,72 +2,74 @@
 
 ## Overview
 
-This project focuses on analyzing sales data using SQL to extract meaningful business insights. The analysis demonstrates how SQL can be used to explore datasets, filter records, perform aggregations, identify trends, and validate data quality. The primary goal is to transform raw sales data into actionable information that can support business decision-making.
+This paper presents the process of analyzing sales data through SQL operations. The aim of this analysis is to demonstrate the power of SQL in terms of exploring datasets, filtering the data, conducting various operations with the data, identifying business trends, and validating data for accuracy.
 
 ## Project Objective
 
-The objective of this project is to apply fundamental SQL concepts to a real-world sales dataset. Through a series of queries, the project explores sales performance, customer behavior, product demand, and regional trends while ensuring the accuracy and reliability of the underlying data.
+The objective of the current project was to apply some SQL basics to analyze the sales data. Using SQL commands, the sales dataset has been explored in various ways with a goal to understand what insights about business performance the data contained.
 
 ## Approach
 
-The analysis begins by loading the sales dataset into a relational database and examining its structure. Understanding the schema and available attributes is an essential first step before performing any analysis.
+As part of the analysis, data exploration operations were carried out; data filtering was performed; aggregates were computed; top performers were ranked; typical use cases were analyzed; and some measures of data validation were applied to the data.
 
-After exploring the dataset, filtering techniques are applied to retrieve specific subsets of data based on business requirements. These filters may include conditions related to regions, product categories, sales values, or dates.
+Firstly, data exploration was conducted in order to understand which columns are present in the sales dataset and get an idea of their content.
 
-Aggregation techniques are then used to summarize large volumes of data. By grouping records based on categories such as products, customers, regions, or time periods, it becomes possible to calculate metrics such as total sales, average sales, and quantities sold.
+Then, data filtering was carried out to retrieve certain subsets of data. Such subsets may consist of records that correspond to certain regions, categories, sales values, dates, etc.
 
-The project also includes ranking and sorting operations to identify top-performing products, categories, and customers. These insights help highlight the most valuable contributors to business revenue.
+Then, aggregating operations were carried out to get some aggregated values for large amounts of data, for example, sum of sales values, sales volume, average sales, etc.
 
-To further support business analysis, common real-world use cases are addressed, including monthly sales trend analysis, customer performance evaluation, and duplicate record detection. Finally, data validation checks are performed to ensure the dataset is complete, consistent, and suitable for analysis.
+Next, ranking and sorting operations were conducted to rank data records and sort them accordingly in order to reveal the top performers of the business, namely, the most profitable products, categories, customers, etc.
+
+Some common use cases for business purposes were addressed as well as data validation was done to ensure data accuracy.
 
 ## Key SQL Concepts Used
 
+In this analysis, the following SQL concepts have been applied to extract insights from sales data:
+
 ### Data Exploration
 
-Data exploration helps in understanding the structure, contents, and quality of the dataset. This stage includes reviewing columns, data types, and sample records to gain familiarity with the data before performing analysis.
+Exploring the dataset gives information about its schema, available columns, sample records, etc.
 
 ### Data Filtering
 
-Filtering is used to retrieve only the records that meet specific criteria. This enables focused analysis on particular regions, categories, date ranges, or sales thresholds.
+Filtering data makes it possible to focus only on relevant data records to conduct analysis.
 
 ### Aggregation
 
-Aggregation functions summarize data and provide meaningful statistics. These calculations help measure overall business performance and compare different segments of the dataset.
+Aggregating allows calculating aggregates for certain groups of records. This operation helps measure overall business performance and compare performance of different subsets.
 
 ### Grouping
 
-Grouping organizes records into categories, allowing aggregate metrics to be calculated for each group. This technique is commonly used to analyze sales by product, customer, region, or month.
+Grouping organizes data records into certain categories to be able to compute some measures of their aggregates, for example, number of products per category or average sales per product.
 
 ### Sorting and Ranking
 
-Sorting helps identify top and bottom performers by arranging results in a meaningful order. Ranking techniques are useful for highlighting high-value customers, best-selling products, and leading categories.
+Sorting and ranking are helpful when it comes to identifying top and bottom performers of business operations.
 
 ### Trend Analysis
 
-Trend analysis examines how sales change over time. Monthly or yearly comparisons help identify growth patterns, seasonal fluctuations, and potential business opportunities.
+Trend analysis allows evaluating sales dynamics by comparing them month by month or year by year to assess business performance.
 
 ### Data Validation
 
-Data validation ensures the reliability of the analysis. Quality checks help identify missing values, duplicate records, and inconsistencies that could affect the accuracy of results.
+Validation ensures that the dataset under study is clean enough, namely, free of duplicates and containing complete data.
 
 ## Business Use Cases
 
-This project addresses several practical business questions, including:
+This project covered several business-oriented questions, namely:
 
-* Which products generate the highest sales?
-* Which customers contribute the most revenue?
-* How do sales vary across different regions?
-* What are the monthly sales trends?
-* Are there duplicate records in the dataset?
-* What categories perform best over time?
-* How can data quality issues be identified and resolved?
+* Which products produce the largest sales?
+* Which customers are the most valuable for the business?
+* What are sales differences between different regions?
+* Are there any trends in sales per month?
+* Is there any duplication in sales data?
+* What product categories prove to be the best?
+* How to check data validity?
 
 ## Insights Generated
 
-The analysis provides valuable insights into sales performance and customer behavior. Organizations can use these findings to optimize product strategies, improve customer engagement, identify high-performing markets, and make informed business decisions.
-
-By leveraging SQL for data analysis, businesses can efficiently transform raw transactional data into meaningful information that supports strategic planning and operational improvements.
+This analysis reveals many useful insights about business operations, namely, which products sell well, which customers generate significant revenue for the business, what are the best-selling regions and categories. These insights can be used for making relevant business decisions.
 
 ## Conclusion
 
-This project demonstrates the practical application of SQL in business analytics. Through data exploration, filtering, aggregation, trend analysis, and validation, the project showcases how SQL can be used to answer important business questions and uncover actionable insights from sales data. It serves as a strong foundation for further work in data analytics, business intelligence, and database management.
+This project shows how useful SQL can be in terms of business intelligence and data analysis, since the set of SQL operations allows addressing many business needs.
